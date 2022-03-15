@@ -1,0 +1,13 @@
+function new_part_solution_vec = back_subst_for_col(ut_mat, new_b_vec,... 
+    column, part_solution_vec)
+
+    new_part_solution_vec = part_solution_vec;
+    
+    if (column == height(ut_mat))
+        new_part_solution_vec(height(ut_mat)) = new_b_vec(column)/ut_mat(column);
+    else
+        new_partial_solution_vec(column) = new_b_vec(column)-(ut_mat(column,)*part_solution_vec)/ut_mat(column, column);
+    end
+
+
+end
