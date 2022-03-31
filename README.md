@@ -1,5 +1,5 @@
 # COMPENG 3SK3 Algorithms
-Algorithms completed in the Computer-Aided Engineering course (COMPENG 3SK3) at McMaster University.
+Three algorithms completed in the Computer-Aided Engineering course (COMPENG 3SK3) at McMaster University.
 ## 1. Gaussian Elimination
 Gaussian Elimination is a method of solving a set of two or more linear equations. The idea behind the method is to eliminate variables, one at a time, from each equation in the set until only one variable remains. With that final variable, its value can be easily determined and then substituted back into the previous equation(s) to solve for the other unknown variables.
 
@@ -9,11 +9,13 @@ Gaussian Elimination is best demonstrated in matrix representation. Take the fol
 
 The general outline of the Gaussian Elimination algorithm is as follows:
 For a set of <i>n</i> linear equations with <i>n</i> unknowns, 
-1. <b>Forward Elimination:</b> perform a sequence of elementary row operations to eliminate n-1 variables in order to place the system of equations into row echelon form
+1. <b>Forward Elimination:</b> perform a sequence of elementary row operations to eliminate n-1 variables in order to place the system of equations into row echelon form.
 
--->include image of upper triangular matrix
+![image](https://user-images.githubusercontent.com/45772611/160993586-3121f9d3-aa75-4bd5-8848-c3f66350dad3.png)
 
 2. <b>Back Substitution</b> Beginning with the <i>n</i>th row, solve for the <i>n</i>th unknown variable. Use the value of the newly known variable to solve for the <i>n-1</i>th variable; then use those two known variables to solve for the <i>n-2</i>th variable; and so on.
+![image](https://user-images.githubusercontent.com/45772611/160995240-fde5c927-8c7b-4b70-afdf-2821500d2d5b.png)
+
 
 ### The Program
 Function `Gauss_Elimination()` utilizes the following two main functions:
