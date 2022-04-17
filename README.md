@@ -34,5 +34,5 @@ Function `Gauss_Elimination_Pivoting()` is almost identical to `Gauss_Eliminatio
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/45772611/161416243-1b73c1b9-feec-40d6-9e06-7cf1575f61cb.png" width="200"/>
 
-## 2. Image Compressiong using SVD
+## 2. Image Compression using SVD
 ## 3. Localization
